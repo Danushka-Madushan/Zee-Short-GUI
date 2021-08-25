@@ -7,7 +7,7 @@ eel.init('web')
 @eel.expose
 def generate(req):
     data = '{ "long_url": "'+req+'", "domain": "bit.ly"}'
-    md5 = ("a61ce0ec664acaa66aefaff3aaf7b88811bb1079")
+    md5 = ("") # PASTE YOUR API TOKEN HERE
     headers = {
     'Authorization': f'Bearer {md5}',
     'Content-Type': 'application/json',
